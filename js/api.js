@@ -3,7 +3,7 @@
    Supports both live http://localhost:5000 REST API and seamless embedded storage
    ========================================================================== */
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://mini-social-media-application-jj9r.onrender.com/api';
 
 // Seeded sample assets generated for the platform
 const DEMO_AVATAR_1 = 'assets/user_avatar_tech_1784866551801.png';
@@ -136,7 +136,7 @@ const Api = {
 
   async init() {
     try {
-      const res = await fetch(`${API_BASE_URL}/health`, { signal: AbortSignal.timeout(1200) });
+      const res = await fetch(`${API_BASE_URL}/health`, { signal: AbortSignal.timeout(5000) });
       if (res.ok) {
         this.mode = 'live';
         console.log('Connected to live backend server on localhost:5000');
