@@ -47,3 +47,6 @@ This repository contains a full-stack Mini Social Media Platform featuring Expre
 
 - **Vercel / Netlify Deployment (Frontend)**:
   - Deploy root directory to Vercel/Netlify/GitHub Pages.
+## Repository
+
+Repository maintained in my GitHub account.
